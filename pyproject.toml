@@ -1,8 +1,8 @@
 [project]
 name = "python-csv2json"
-version = "0.4.2"
+version = "0.4.6"
 authors = [
-  { name="SalTech", email="info@saltech.ir" },
+  { name="SalTech", email="saltech.co.ir@gmail.com" },
 ]
 description = "CSV to JSON Converter | Export to File and Use as String"
 readme = "README.md"
@@ -14,5 +14,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/SalTechGroup/csv2json"
+"Bug Tracker" = "https://github.com/SalTechGroup/csv2json/issues"

@@ -1,15 +1,16 @@
 Metadata-Version: 2.1
 Name: python-csv2json
-Version: 0.4.2
+Version: 0.4.6
 Summary: CSV to JSON Converter | Export to File and Use as String
-Author-email: SalTech <info@saltech.ir>
-Project-URL: Homepage, https://github.com/pypa/sampleproject
-Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: SalTech <saltech.co.ir@gmail.com>
+Project-URL: Homepage, https://github.com/SalTechGroup/csv2json
+Project-URL: Bug Tracker, https://github.com/SalTechGroup/csv2json/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
+License-File: LICENSE
 
 # Python CSV to JSON Converter
 ###### based on unicode UTF-8
@@ -20,16 +21,20 @@ Instructions:
 
 - For import to your project
 
-    `import csv2json as converter`
+    ```
+      import csv2json as converter
+    ```
 - For convert csv to json and export to file
 
-    `converter.csv_2_json_file("YOUR_CSV_FILE_PATH")`
+    ```
+      converter.csv_2_json_file("YOUR_CSV_FILE_PATH")
+    ```
 - For convert csv to json as string:
 
     ```
-    csv = "YOUR_CSV_STRING"
-    json = converter.csv_2_json(csv)
-    print(json) # Converted JSON String
+      csv = "YOUR_CSV_STRING"
+      json = converter.csv_2_json(csv)
+      print(json) # Converted JSON String
     ```
   
 Minimum Python Version Requirement is **3.7.0**

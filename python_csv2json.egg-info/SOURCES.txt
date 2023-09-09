@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 python_csv2json.egg-info/PKG-INFO
