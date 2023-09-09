@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+python_csv2json.egg-info/PKG-INFO
+python_csv2json.egg-info/SOURCES.txt
+python_csv2json.egg-info/dependency_links.txt
+python_csv2json.egg-info/top_level.txt
