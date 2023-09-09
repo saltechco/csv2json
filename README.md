@@ -1,4 +1,4 @@
-# Python CSV to JSON Converter
+# Python CSV to JSON Converter    ![Python](https://img.shields.io/static/v1?label=Python&message=3.11.0&color=important)
 ###### based on unicode UTF-8
 
 You can export converted json string to a file when using a csv file
