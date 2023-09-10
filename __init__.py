@@ -1,4 +1,3 @@
-
 # Function: csv_2_json_file
 #
 # This function takes in as input a CSV file and converts it to a JSON file. The converted JSON contents are written to a new file
@@ -77,4 +76,3 @@ def _split_path(file_path: str):
 		file_path_part = file_path.split(_UNIX_FILE_SEP)
 		file_separator = _UNIX_FILE_SEP
 	return [''.join(map(lambda path: path + file_separator, file_path_part[:-1])), file_path_part[-1]]
-
