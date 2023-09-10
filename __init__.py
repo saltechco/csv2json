@@ -78,5 +78,3 @@ def _split_path(file_path: str):
 		file_separator = _UNIX_FILE_SEP
 	return [''.join(map(lambda path: path + file_separator, file_path_part[:-1])), file_path_part[-1]]
 
-
-csv_2_json_file("C:\\Users\\saleh\\Downloads\\english_dict2.csv")
