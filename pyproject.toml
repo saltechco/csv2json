@@ -1,6 +1,6 @@
 [project]
 name = "python-csv2json"
-version = "0.4.6"
+version = "0.4.7"
 authors = [
   { name="SalTech", email="saltech.co.ir@gmail.com" },
 ]
