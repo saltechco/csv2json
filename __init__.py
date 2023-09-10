@@ -50,13 +50,17 @@ def csv_2_json(csv: str) -> str:
 	subjects = csv[0].split(",")
 	if len(subjects) % 2 == 0:
 		rows = list(map(lambda e: e.split(","), csv[1:]))
-		json = "{"
-		index = 0
+		json = "[" if len(rows) > 1 else ""
+		i = 0
 		for row in rows:
+			j = 0
+			json += "{"
 			for subj, obj in zip(subjects, row):
-				json += f"\"{subj}\":\"{obj}\"{',' if index < (len(rows) * len(row)) - 1 else ''}"
-				index += 1
-		json += "}"
+				json += f"\"{subj}\":\"{obj}\"{',' if j < len(row) - 1 else ''}"
+				j += 1
+			json += "}" + (',' if i < len(rows) - 1 else '')
+			i += 1
+		json += "]" if len(rows) > 1 else ""
 	else:
 		raise ValueError("The count of columns must be even!")
 	return json
@@ -74,3 +78,5 @@ def _split_path(file_path: str):
 		file_separator = _UNIX_FILE_SEP
 	return [''.join(map(lambda path: path + file_separator, file_path_part[:-1])), file_path_part[-1]]
 
+
+csv_2_json_file("C:\\Users\\saleh\\Downloads\\english_dict2.csv")
