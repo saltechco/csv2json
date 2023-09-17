@@ -3,8 +3,8 @@ Name: python-csv2json
 Version: 0.4.7
 Summary: CSV to JSON Converter | Export to File and Use as String
 Author-email: SalTech <saltech.co.ir@gmail.com>
-Project-URL: Homepage, https://github.com/SalTechGroup/csv2json
-Project-URL: Bug Tracker, https://github.com/SalTechGroup/csv2json/issues
+Project-URL: Homepage, https://github.com/saltechco/csv2json
+Project-URL: Bug Tracker, https://github.com/saltechco/csv2json/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent

@@ -1,6 +1,6 @@
 [project]
 name = "python-csv2json"
-version = "0.4.7"
+version = "0.4.8"
 authors = [
     { name = "SalTech", email = "saltech.co.ir@gmail.com" },
 ]
@@ -14,5 +14,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/SalTechGroup/csv2json"
-"Bug Tracker" = "https://github.com/SalTechGroup/csv2json/issues"
+"Homepage" = "https://github.com/saltechco/csv2json"
+"Bug Tracker" = "https://github.com/saltechco/csv2json/issues"

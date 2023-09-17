@@ -75,4 +75,4 @@ def _split_path(file_path: str):
 	else:
 		file_path_part = file_path.split(_UNIX_FILE_SEP)
 		file_separator = _UNIX_FILE_SEP
-	return [''.join(map(lambda path: path + file_separator, file_path_part[:-1])), file_path_part[-1]]
+	return [file_separator.join(file_path_part[:-1]), file_path_part[-1]]
